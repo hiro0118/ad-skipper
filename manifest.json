@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Ad Skipper",
+    "version": "1.0",
+    "description": "Plugin to skips YouTube ads.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "skip-ad.js"
+            ]
+        }
+    ]
+}
